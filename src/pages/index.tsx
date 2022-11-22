@@ -1,8 +1,6 @@
 import React from 'react';
-import { useColorScheme } from '@mui/joy/styles';
 import Sheet from '@mui/joy/Sheet';
 import Typography from '@mui/joy/Typography';
-import Button from '@mui/joy/Button';
 
 export default function Home() {
   return (

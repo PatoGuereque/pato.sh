@@ -22,7 +22,7 @@ const MyApp = (props: MyAppProps) => {
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
-      <CssVarsProvider theme={theme}>
+      <CssVarsProvider theme={theme} defaultMode="system">
         <CssBaseline />
         <Layout>
           <Component {...pageProps} />
